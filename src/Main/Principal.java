@@ -3,7 +3,10 @@ package Main;
 public class Principal {
     
     public static void main(String[] args) {
-        System.out.println("Hola Mundo :) !!!");
+        
+        HolaMundo holaMundo = new HolaMundo();
+        holaMundo.setVisible(true);
+        
     }
     
 }
